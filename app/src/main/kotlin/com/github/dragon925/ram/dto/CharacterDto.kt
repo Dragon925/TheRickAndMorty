@@ -3,6 +3,7 @@ package com.github.dragon925.ram.dto
 data class CharacterDto(
     override val id: Int,
     override val name: String,
+    val status: String,
     val species: String,
     val type: String,
     val gender: String,
