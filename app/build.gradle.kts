@@ -49,6 +49,8 @@ dependencies {
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.constraintlayout)
 
+    implementation(libs.kotlinx.datetime)
+
     testImplementation(libs.junit)
 
     androidTestImplementation(libs.androidx.junit)
