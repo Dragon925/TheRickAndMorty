@@ -1,7 +1,49 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RickAndMorty2025" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Primary -->
+        <item name="colorPrimary">@color/green_300</item>
+        <item name="colorOnPrimary">@color/green_700</item>
+        <item name="colorPrimaryContainer">@color/green_600</item>
+        <item name="colorOnPrimaryContainer">@color/green_100</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/grey_300</item>
+        <item name="colorOnSecondary">@color/grey_800</item>
+        <item name="colorSecondaryContainer">@color/grey_600</item>
+        <item name="colorOnSecondaryContainer">@color/grey_150</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/salat_300</item>
+        <item name="colorOnTertiary">@color/salat_800</item>
+        <item name="colorTertiaryContainer">@color/salat_700</item>
+        <item name="colorOnTertiaryContainer">@color/salat_100</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/red_200</item>
+        <item name="colorOnError">@color/red_800</item>
+        <item name="colorErrorContainer">@color/red_600</item>
+        <item name="colorOnErrorContainer">@color/red_100</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/grey_900</item>
+        <item name="colorOnSurface">@color/grey_200</item>
+        <item name="colorSurfaceVariant">@color/grey_650</item>
+        <item name="colorOnSurfaceVariant">@color/grey_400</item>
+
+        <!-- Surface Container -->
+        <item name="colorSurfaceContainerHighest">@color/grey_750</item>
+        <item name="colorSurfaceContainerHigh">@color/grey_825</item>
+        <item name="colorSurfaceContainer">@color/grey_850</item>
+        <item name="colorSurfaceContainerLow">@color/grey_875</item>
+        <item name="colorSurfaceContainerLowest">@color/grey_950</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/grey_975</item>
+        <item name="colorOnBackground">@color/grey_200</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/grey_450</item>
+        <item name="colorOutlineVariant">@color/grey_650</item>
     </style>
 </resources>

@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Rick And Morty 2025</string>
+
+    <string name="characters">Characters</string>
+    <string name="locations">Locations</string>
+    <string name="episodes">Episodes</string>
+
+    <string name="label_character_gender">Gender:</string>
+    <string name="label_last_known_location">Last known location:</string>
+    <string name="hint_search_character">Search character</string>
+    <string name="character_staus_and_species">%1$s – %2$s</string>
+    <string name="character_status_alive">Alive</string>
+    <string name="character_status_dead">Dead</string>
+    <string name="character_status_unknown">Unknown</string>
+    <string name="character_species">Species</string>
+    <string name="character_gender">Gender</string>
+    <string name="character_gender_male">Male</string>
+    <string name="character_gender_female">Female</string>
+    <string name="character_gender_genderless">Genderless</string>
+    <string name="character_gender_unknown">Unknown</string>
+    <string name="character_type">Type</string>
+    <string name="character_origin_location">Origin location</string>
+    <string name="character_last_known_location">Last known location</string>
+    <string name="character_episodes">Episodes</string>
+    <string name="description_character_avatar">Character avatar</string>
 </resources>

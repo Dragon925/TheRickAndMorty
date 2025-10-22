@@ -1,8 +1,50 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.RickAndMorty2025" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary -->
+        <item name="colorPrimary">@color/green_400</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/green_100</item>
+        <item name="colorOnPrimaryContainer">@color/green_800</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/grey_700</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/grey_150</item>
+        <item name="colorOnSecondaryContainer">@color/grey_925</item>
+
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/salat_500</item>
+        <item name="colorOnTertiary">@color/black</item>
+        <item name="colorTertiaryContainer">@color/salat_100</item>
+        <item name="colorOnTertiaryContainer">@color/green_900</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/red_500</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="colorErrorContainer">@color/red_100</item>
+        <item name="colorOnErrorContainer">@color/red_900</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/grey_925</item>
+        <item name="colorSurfaceVariant">@color/grey_150</item>
+        <item name="colorOnSurfaceVariant">@color/grey_700</item>
+
+        <!-- Surface Container -->
+        <item name="colorSurfaceContainerHighest">@color/grey_250</item>
+        <item name="colorSurfaceContainerHigh">@color/grey_175</item>
+        <item name="colorSurfaceContainer">@color/grey_125</item>
+        <item name="colorSurfaceContainerLow">@color/grey_100</item>
+        <item name="colorSurfaceContainerLowest">@color/grey_75</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/grey_50</item>
+        <item name="colorOnBackground">@color/grey_925</item>
+
+        <!-- Outline -->
+        <item name="colorOutline">@color/grey_500</item>
+        <item name="colorOutlineVariant">@color/grey_400</item>
     </style>
 
     <style name="Theme.RickAndMorty2025" parent="Base.Theme.RickAndMorty2025" />

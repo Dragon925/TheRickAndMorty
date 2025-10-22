@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/spacing_xs"
+    app:cardCornerRadius="@dimen/corner_radius_s">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.33"/>
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toStartOf="@id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/description_character_avatar"
+            tools:src="@drawable/character_image"/>
+
+        <TextView
+            style="@style/Text.Title.Medium"
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/guideline"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/spacing_xs"
+            android:textColor="?attr/colorPrimary"
+            tools:text="Character name"/>
+
+        <View
+            android:id="@+id/v_status"
+            android:layout_width="@dimen/status_size"
+            android:layout_height="@dimen/status_size"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            app:layout_constraintBottom_toBottomOf="@id/tv_status_and_species"
+            app:layout_constraintStart_toStartOf="@id/tv_name"
+            android:background="@drawable/bg_status"
+            tools:backgroundTint="?attr/colorTertiary"/>
+
+        <TextView
+            style="@style/Text.Label.Medium"
+            android:id="@+id/tv_status_and_species"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_name"
+            app:layout_constraintStart_toEndOf="@id/v_status"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="@dimen/spacing_xxs"
+            android:layout_marginEnd="@dimen/spacing_xs"
+            android:textColor="?attr/colorOnSurface"
+            tools:text="Alive – Species"/>
+
+        <TextView
+            style="@style/Text.Label.Medium"
+            android:id="@+id/tv_gender_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_status_and_species"
+            app:layout_constraintStart_toStartOf="@id/tv_name"
+            android:layout_marginTop="@dimen/spacing_xxs"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:text="@string/label_character_gender"/>
+
+        <TextView
+            style="@style/Text.Body.Small"
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/tv_gender_label"
+            app:layout_constraintBottom_toBottomOf="@id/tv_gender_label"
+            app:layout_constraintStart_toEndOf="@id/tv_gender_label"
+            android:layout_marginStart="@dimen/spacing_xxs"
+            android:textColor="?attr/colorOnSurface"
+            tools:text="Male"/>
+
+        <TextView
+            style="@style/Text.Label.Medium"
+            android:id="@+id/tv_last_location_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_gender_label"
+            app:layout_constraintStart_toStartOf="@id/tv_name"
+            android:layout_marginTop="@dimen/spacing_xxs"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:text="@string/label_last_known_location"/>
+
+        <TextView
+            style="@style/Text.Body.Small"
+            android:id="@+id/tv_last_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tv_last_location_label"
+            app:layout_constraintStart_toStartOf="@id/tv_gender_label"
+            android:layout_marginTop="@dimen/spacing_xxs"
+            android:textColor="?attr/colorOnSurface"
+            tools:text="Interdimensional Cable"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

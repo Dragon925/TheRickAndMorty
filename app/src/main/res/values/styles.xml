@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text"/>
+
+    <style name="Text.Title"/>
+
+    <style name="Text.Title.Medium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Text.Headline.Medium" parent="TextAppearance.Material3.HeadlineMedium"/>
+
+    <style name="Text.Label.Large" parent="TextAppearance.Material3.LabelLarge"/>
+
+    <style name="Text.Label.Medium" parent="TextAppearance.Material3.LabelMedium"/>
+
+    <style name="Text.Body.Large" parent="TextAppearance.Material3.BodyLarge"/>
+
+    <style name="Text.Body.Medium" parent="TextAppearance.Material3.BodyMedium"/>
+
+    <style name="Text.Body.Small" parent="TextAppearance.Material3.BodySmall"/>
+
+    
+
+</resources>

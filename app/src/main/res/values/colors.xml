@@ -2,4 +2,50 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="green_100">#CCE8DB</color>
+    <color name="green_300">#67C89B</color>
+    <color name="green_400">#42B883</color>
+    <color name="green_600">#005233</color>
+    <color name="green_700">#003826</color>
+    <color name="green_800">#002C1A</color>
+    <color name="green_900">#131F06</color>
+
+    <color name="salat_100">#E6F4D6</color>
+    <color name="salat_300">#C9E58A</color>
+    <color name="salat_500">#97CE4C</color>
+    <color name="salat_700">#354C1F</color>
+    <color name="salat_800">#223511</color>
+
+    <color name="red_100">#FFDAD6</color>
+    <color name="red_200">#FFB4AB</color>
+    <color name="red_500">#BA1A1A</color>
+    <color name="red_600">#93000A</color>
+    <color name="red_800">#690005</color>
+    <color name="red_900">#410002</color>
+
+    <color name="grey_50">#F8F9FA</color>
+    <color name="grey_75">#F8F8F8</color>
+    <color name="grey_100">#F2F2F2</color>
+    <color name="grey_125">#ECECEC</color>
+    <color name="grey_150">#E8E8E8</color>
+    <color name="grey_175">#E6E6E6</color>
+    <color name="grey_200">#E0E3DD</color>
+    <color name="grey_250">#E0E0E0</color>
+    <color name="grey_300">#CDCDCD</color>
+    <color name="grey_400">#C3C8BE</color>
+    <color name="grey_450">#8D9388</color>
+    <color name="grey_500">#73796F</color>
+    <color name="grey_600">#454745</color>
+    <color name="grey_650">#424742</color>
+    <color name="grey_700">#3C3E44</color>
+    <color name="grey_750">#363636</color>
+    <color name="grey_800">#2F312F</color>
+    <color name="grey_825">#2D2D2D</color>
+    <color name="grey_850">#252525</color>
+    <color name="grey_875">#1F1F1F</color>
+    <color name="grey_900">#1E1E1E</color>
+    <color name="grey_925">#1A1C1A</color>
+    <color name="grey_950">#191919</color>
+    <color name="grey_975">#121212</color>
 </resources>
