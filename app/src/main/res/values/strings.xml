@@ -23,4 +23,5 @@
     <string name="character_last_known_location">Last known location</string>
     <string name="character_episodes">Episodes</string>
     <string name="description_character_avatar">Character avatar</string>
+    <string name="character_details">Character details</string>
 </resources>
